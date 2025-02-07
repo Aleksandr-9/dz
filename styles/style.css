@@ -1,0 +1,693 @@
+.hero-block {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 80px;
+    gap: 64px;
+}
+
+.hero-block .info {
+    display: flex;
+    justify-content: space-between;
+    gap: 17px;
+}
+
+.hero-block .info .text-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-block .info .text-content .underline {
+    width: 218px;
+    margin: 3px 264px 24px 57px;
+}
+
+.hero-block .info .text-content .hero-text {
+    position: relative;
+}
+
+.hero-block .info .text-content .hero-text h1 {
+    font-size: 68px;
+    font-weight: 800;
+    line-height: 74px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.hero-block .info .text-content .hero-text .illustration {
+    position: absolute;
+    top: -10px;
+    right: 13px;
+    width: 114px;
+}
+
+.hero-block .info .text-content .text {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.hero-block .info .hero-pic {
+    max-width: 444px;
+    z-index: -10;
+}
+
+.hero-block .actions {
+    display: flex;
+    gap: 24px;
+}
+
+.hero-block .actions .input {
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 1);
+    width: 317px;
+    height: 61px;
+    padding: 18px 46px 18px 14px;
+    border: none;
+}
+
+.hero-block .actions .button-wrapper {
+    background: rgba(245, 250, 147, 1);
+    max-width: 222px;
+    padding: 18px 14px;
+    border-radius: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    width: 100%;
+}
+
+.hero-block .actions .button-wrapper p {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: center;
+}
+
+.features {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    margin: 0 auto 80px
+}
+
+.features .feature {
+    border-radius: 32px;
+    border: 1px solid rgba(245, 250, 147, 1);
+    padding: 32px;
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    width: 100%;
+}
+
+.features .feature .pic-area {
+    display: flex;
+}
+
+.features .feature .pic-area-center {
+    justify-content: center;
+}
+
+.features .feature .pic-area-right {
+    justify-content: end;
+}
+
+.features .feature .content {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.features .feature .content h2 {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 54px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.features .feature .content p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.screens {
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+    margin: 0 auto 80px
+}
+
+.screens .profile {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 10px;
+}
+
+.screens .profile .profile-web {
+    max-width: 65.8em;
+    border-radius: 2.4em;
+    border: 0.2em solid rgba(51, 51, 51, 1);
+    background: rgba(20, 14, 23, 1);
+    position: absolute;
+    top: 11.4em;
+    left: 17.1em;
+    padding: 3em 7.3em;
+    display: flex;
+    justify-content: space-between;
+    gap: 7.9em;
+    align-items: center;
+}
+
+.screens .profile .profile-web .avatar {
+    width: 18.2em;
+}
+
+.screens .profile .profile-web .content {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    color: rgba(255, 255, 255, 1);
+    max-width: 25.1em;
+}
+
+.screens .profile .profile-web .content h2 {
+    font-size: 3.1em;
+    font-weight: 800;
+}
+
+.screens .profile .profile-web .content p {
+    font-size: 1.1em;
+    font-weight: 500;
+    line-height: 1.3em;
+}
+
+.screens .profile .profile-web .write-action {
+    margin-top: 2.9em;
+    background: #F5FA93;
+    max-width: 10.5em;
+    padding: 0.8em 0.6em;
+    border-radius: 0.8em;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    gap: 0.3em;
+}
+
+.screens .profile .profile-web .write-action p {
+    font-size: 0.8em;
+    font-weight: 600;
+    line-height: 1.1em;
+    width: 100%;
+}
+
+.screens .profile .profile-web .write-action .arr {
+    width: 1.1em;
+}
+
+.screens .profile .card {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6em;
+    padding: 2.1em 2.1em 2em 2.1em;
+    width: 100%;
+    max-width: 22em;
+    border-radius: 2.1em;
+    background: rgba(255, 175, 176, 1);
+    margin: 0 5em 0 0;
+}
+
+.screens .profile .card .content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+}
+
+.screens .profile .card .content h2 {
+    font-size: 2.8em;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 1);
+}
+
+.screens .profile .card .content p {
+    font-size: 1.2em;
+    font-weight: 500;
+    line-height: 1.7em;
+    color: rgba(0, 0, 0, 1);
+}
+
+.screens .profile .card .button {
+    display: flex;
+    justify-content: end;
+}
+
+.screens .profile .card .button .arr {
+    width: 1.6em;
+}
+
+.screens .profile .card .button a {
+    max-width: 11.8em;
+    width: 100%;
+    text-align: center;
+    padding: 1.2em 0.9em;
+    border-radius: 1.2em;
+    font-weight: 600;
+    line-height: 2.5em;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5em;
+    border: 0.1em solid rgba(51, 51, 51, 1);
+}
+
+.screens .profile .card .button p {
+    font-size: 1.2em;
+    font-weight: 600;
+    line-height: 1.6em;
+}
+
+.screens .profile .company-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4em;
+    color: rgba(255, 255, 255, 1);
+    padding: 1.8em 1.8em 1.5em 1.8em;
+    border-radius: 2.4em;
+    border: 0.1em solid rgba(51, 51, 51, 1);
+    max-width: 54.5em;
+    width: 100%;
+    margin: 0 0 0 5em;
+}
+
+.screens .profile .company-list h3 {
+    font-size: 1.8em;
+    font-weight: 600;
+    color: rgba(170, 219, 107, 1);
+}
+
+.screens .profile .company-list .job-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2.1em;
+}
+
+.screens .profile .company-list .job-list .company .organization {
+    font-size: 1.8em;
+    font-weight: 500;
+}
+
+.screens .profile .company-list .job-list .company .period {
+    font-size: 1.3em;
+    font-weight: 500;
+    color: rgba(118, 117, 123, 1);
+}
+
+.screens .profile .company-list .job-list .company-link a {
+    font-size: 1.3em;
+    font-weight: 500;
+    color: rgba(118, 117, 123, 1);
+    text-decoration: underline;
+}
+
+.screens .profile .company-list .job-list .job p {
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.screens .block {
+    padding: 24px;
+    gap: 32px;
+    border-radius: 32px;
+    border: 1px solid rgba(51, 51, 51, 1);
+    display: flex;
+    flex-direction: column;
+}
+
+.screens .block p {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.screens .block .button-area {
+    gap: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.screens .block .button-area .button {
+    max-width: 245px;
+    width: 100%;
+    padding: 18px 14px;
+    border-radius: 18px;
+    border: 1px solid rgba(51, 51, 51, 1);
+    display: flex;
+    gap: 8px;
+}
+
+.screens .block .button-area .button p {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 1);
+    white-space: nowrap;
+}
+
+
+.price {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin: 0 auto 80px
+}
+
+.price h3 {
+    padding: 0 0 0 24px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26px;
+    color: rgba(245, 250, 147, 1);
+}
+
+.price .price-list {
+    display: flex;
+    gap: 32px;
+}
+
+.price .price-list .price-item {
+    border-radius: 32px;
+    background: rgba(245, 250, 147, 1);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 32px;
+    max-width: 484px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.price .price-list .price-item .content-text {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.price .price-list .price-item h4 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.price .price-list .price-item .priceTag {
+    font-size: 68px;
+    font-weight: 800;
+    line-height: 75px;
+    color: rgba(0, 0, 0, 1);
+    display: flex;
+    align-items: baseline;
+}
+
+.price .price-list .price-item .priceTag .period {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.price .price-list .price-item p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.price .price-list .price-item .benefits {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 24px;
+    list-style: none;
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+}
+
+.price .price-list .price-item .benefits .item {
+    display: flex;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.price .price-list .price-item .benefits .item::before {
+    content: "";
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url("/icons/jackdaw.svg");
+}
+
+.price .price-list .price-item .button {
+    border-radius: 18px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    background: rgb(0, 0, 0, 1);
+    padding: 18px 14px;
+    font-size: 18px;
+    line-height: 25px;
+    max-width: 200px;
+    text-align: center;
+    width: 100%;
+    border: 1px solid rgba(51, 51, 51, 1);
+    margin-top: auto;
+}
+
+.price .price-list .price-item .tag {
+    border-radius: 18px;
+    color: rgba(255, 255, 255, 1);
+    background: rgb(0, 0, 0, 1);
+    max-width: 144px;
+    width: 100%;
+    border: 1px solid rgba(51, 51, 51, 1);
+    position: absolute;
+    right: 32px;
+    top: -25px;
+}
+
+.price .price-list .price-item .tag .text {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    white-space: nowrap;
+    padding: 14px;
+}
+
+.faq {
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+    margin: 0 auto 80px
+}
+
+.faq h3 {
+    padding: 0 0 0 24px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26px;
+    color: rgba(245, 250, 147, 1);
+}
+
+.faq .list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.faq .list .description {
+    padding: 24px;
+    border-radius: 32px;
+    border: 1px solid rgba(51, 51, 51, 1);
+}
+
+.faq .list .description .point {
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq .list .description .point h4 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.faq .list .description .point .icon {
+    cursor: pointer;
+}
+
+.icon-plus {
+    position: absolute;
+}
+
+.icon-minus {
+    opacity: 0;
+}
+
+details[open] .icon-plus {
+    opacity: 0;
+}
+
+details[open] .icon-minus {
+    opacity: 1;
+}
+
+.faq .list .description p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    color: rgba(120, 120, 120, 1);
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.chat-container {
+    position: fixed;
+    bottom: 64px;
+    left: 0;
+    right: 0;
+}
+
+.chat {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+
+@media (max-width: 768px) {
+    .hero-block .info .hero-pic {
+        opacity: 20%;
+        position: absolute;
+        right: 25px;
+    }
+
+    .features {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .screens .profile {
+        font-size:7.2px;
+    }
+
+
+}
+
+@media (max-width: 375px) {
+    .hero-block .info .text-content{
+        max-width: 335px;
+        width: 100%;
+    }
+
+    .hero-block .info .text-content .hero-text h1 {
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 54px;
+    }
+
+    .hero-block .info .text-content .hero-text .illustration {
+        width: 50px;
+        top: -1px;
+        right: 30px;
+    }
+
+    .hero-block .info .text-content .underline{
+        width: 100px;
+        margin: 0 0 29px 0;
+    }
+
+    .hero-block .info .hero-pic {
+        width: 258px;
+    }
+
+    .actions {
+        flex-wrap: wrap
+    }
+
+    .price-list {
+        flex-wrap: wrap;
+    }
+
+    .screens .profile {
+        font-size:3.35px;
+    }
+}
+
+@media (max-width: 920px) {
+    .hero-block .info .hero-pic {
+        opacity: 20%;
+        position: absolute;
+        right: 100px;
+    }
+
+    .features {
+        flex-wrap: wrap;
+    }
+
+    .header .left-side {
+        max-width: 880px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 730px) {
+    .price-list {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 603px) {
+    .hero-block .info .text-content{
+        max-width: 335px;
+        width: 100%;
+    }
+
+    .hero-block .info .text-content .hero-text h1 {
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 54px;
+    }
+
+    .hero-block .info .text-content .hero-text .illustration {
+        width: 50px;
+        top: -1px;
+        right: 30px;
+    }
+
+    .hero-block .info .text-content .underline{
+        width: 100px;
+        margin: 0 0 29px 0;
+    }
+
+    .actions {
+        flex-wrap: wrap
+    }
+}
+
+@media (max-width: 535px) {
+    .screens .profile {
+        font-size:4.8px
+    }
+}
